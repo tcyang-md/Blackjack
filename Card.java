@@ -79,9 +79,9 @@ public class Card {
 		// Player card first, then dealer card second, twice
 		for (int i = 0; i < 2; i++) {
 			playerHand.add(deck.get(0));
-			dealerHand.add(deck.get(1));
 			deck.remove(0);
-			deck.remove(1);
+			dealerHand.add(deck.get(0));
+			deck.remove(0);			
 		}
 
 	}
@@ -187,10 +187,10 @@ public class Card {
 
 	// Method that describes the cards (values and suits) in the hand.
 	public static String displayHand(ArrayList<Card> hand) {
-		String handToString = "";
+		String handToString = "\n";
 		
 		for (int i = 0; i < hand.size(); i++) {
-			String thisCard = hand.get(i).value + " of " + hand.get(i).suit + " ";
+			String thisCard = hand.get(i).value + " of " + hand.get(i).suit + "\n";
 			handToString = handToString.concat(thisCard);
 		}
 		return handToString;
