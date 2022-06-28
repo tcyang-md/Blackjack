@@ -39,7 +39,7 @@ public class Card {
 }
 ```
 
-## Demo
+## Demo Example
 ![first](https://user-images.githubusercontent.com/70073219/176310926-a59f6ced-4558-4ad7-b722-98f57ead339d.png)
 ![display](https://user-images.githubusercontent.com/70073219/176310980-d9af3f1f-3998-4be6-980c-3d5655ec17b2.png)
 ![playerbust](https://user-images.githubusercontent.com/70073219/176311017-bed58d17-7d32-43fc-b6e3-f4d77c359968.png)
