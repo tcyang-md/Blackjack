@@ -1,4 +1,4 @@
-# Blackjack
+# Blackjack :black_joker:
 I created Blackjack in **Java** using **JOptionPane** as my GUI and an **ArrayList** of card objects to simulate a deck of cards. The program follows the traditional rules of Blackjack where the dealer must draw to 16 and stand on all 17s. 
 
 ## Breakdown
