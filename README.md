@@ -2,7 +2,7 @@
 I created Blackjack in **Java** using **JOptionPane** as my GUI and an **ArrayList** of card objects to simulate a deck of cards. The program follows the traditional rules of Blackjack where the dealer must draw to 16 and stand on all 17s. 
 
 ## Instructions
-Download the card.java file in your IDE and run. The game should appear as a JOptionPane pop up and you will be able to play. Have fun!
+`$ java card` and the game should appear as a JOptionPane pop up and you will be able to play. Have fun!
 
 ## Breakdown
 ``` java
